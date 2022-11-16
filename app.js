@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require("mongoose")
 
 require('./src/config/passport')
-require('dotenv').config();
+
 
 const app = express();
 
