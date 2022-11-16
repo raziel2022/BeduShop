@@ -1,5 +1,5 @@
 .env
 *.zip
 **/node_modules/*
-databases.js
+database.js
 gods.js
