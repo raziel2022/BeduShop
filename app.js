@@ -20,5 +20,7 @@ app.use('/v1',require('./src/routes'))
 
 app.listen(process.env.PORT, ()=>{console.log("El servidor esta listo");});
 
+app.get('/',(req, res) => res.send("Hola Mundo"))
+
 
 
